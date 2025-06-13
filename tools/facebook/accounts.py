@@ -1,4 +1,3 @@
-from langchain_core.tools import tool
 from config.settings import fb_access_token, fb_base_url
 import requests
 from utils.server import myserver

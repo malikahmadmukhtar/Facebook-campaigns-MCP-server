@@ -1,3 +1,4 @@
 requests
 mcp
 python-dotenv
+uvicorn

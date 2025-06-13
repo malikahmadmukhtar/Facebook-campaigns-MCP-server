@@ -7,4 +7,4 @@
 # (e.g., if your code is in 'app.py', use 'app')
 # 'myserver.app' refers to the FastMCP instance's underlying ASGI app.
 # $PORT is an environment variable provided by Render.
-uvicorn main:myserver.app --host 0.0.0.0 --port $PORT
+uvicorn main:app --host 0.0.0.0 --port $PORT
